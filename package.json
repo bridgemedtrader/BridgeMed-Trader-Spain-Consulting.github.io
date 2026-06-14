@@ -1,0 +1,17 @@
+{
+  "name": "bridgemed-trader-spain-consulting",
+  "version": "1.0.0",
+  "description": "BridgeMed Trade - Consultoría Comercial Mediterráneo",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "esbuild speed-insights.js --bundle --minify --outfile=dist/speed-insights.min.js --format=iife",
+    "lint": "echo 'No linter configured for static HTML'"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}

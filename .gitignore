@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+*.tsbuildinfo
+.turbo/
+.cache/
+.parcel-cache/
+
+# Local environment
+.env
+.env.local
+.env*.local
+
+# OS files
+.DS_Store
+Thumbs.db
